@@ -11,3 +11,4 @@ sudo vi /etc/docker/daemon.json
 }
 
 sudo systemctl reload docker
+sudo chmod +x /var/run/docker.sock
