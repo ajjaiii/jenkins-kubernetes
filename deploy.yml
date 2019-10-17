@@ -23,6 +23,7 @@ spec:
           volumeMounts:
             - name: jenkins-home
               mountPath: /var/jenkins_home
+      serviceAccountName: jenkins
       volumes:
         - name: jenkins-home
           emptyDir: {}
